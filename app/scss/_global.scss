@@ -1,0 +1,24 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 75px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #FFFEFB;
+  @extend %proxima-400;
+  line-height: 1.25;
+}
+
+.min {
+  max-width: 490px;
+}
+
+.title {
+  @extend %proxima-700;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 125%;
+  margin-bottom: 50px;
+}
